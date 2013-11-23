@@ -1,0 +1,164 @@
+5NF
+
+	{database normalisation}
+
+5th Glove
+
+	<hardware, virtual reality> A {data glove} and flexor strip
+	kit (5th Glove DFK) sold by {Fifth Dimension Technologies} for
+	$495 ($345 for the left-handed version, $45 for each extra
+	flexor strip).  The DFK provides a data glove, a flexon strip
+	(with an elbow or knee-joint sensor), an interface card,
+	cables, and KineMusica software.  The package uses flexible
+	optical-bending sensing to track hand and arm movement.  The
+	glove can be used with 5DT's ultrasonic tracking system, the
+	5DT Head and Hand tracker ($245), which can track movement
+	from up to two metres away from the unit's transmitter.
+
+	(1998-02-06)
+
+6.001
+
+	<education> /siks dub*l oh wun/, /dub*l oh wun/ or rarely
+	/siks dub*l oh fun/ {MIT}'s introductory computer class for
+	majors, known for its intensity.  Developed by {Gerald
+	Sussman} and {Hal Abelson}, the course is taught in {Scheme}
+	and introduces {recursion}, {higher-order functions},
+	{object-oriented programming} and much more.  Students who
+	grasp the {meta}circular {interpreter} gain entry into the
+	{Knights of the Lambda-Calculus}.  6.001 has been exported to
+	several other colleges, sometimes successfully.  The textbook,
+	"Structure and Interpretation of Computer Programs", written
+	with Julie Sussman is a classic that can be found on the
+	shelves of many computer scientists, whether they took the
+	course or not.  Legendary characters from the class, problem
+	sets, and book include the wise Alyssa P. Hacker, Ben
+	Bitdiddle, Lem E. Tweakit and Eva Lu Ator, the careless Louis
+	Reasoner and {Captain Abstraction}.
+
+	(1994-11-22)
+
+610
+
+	<communications> The standard type of two-wire wall socket and
+	plug used for telephones in Australia.
+
+	[Other countries?  Full name?]
+
+	(1997-06-26)
+
+abstract machine
+
+	1. <language> A processor design which is not intended to be
+	implemented as {hardware}, but which is the notional executor
+	of a particular {intermediate language} (abstract machine
+	language) used in a {compiler} or {interpreter}.  An abstract
+	machine has an {instruction set}, a {register set} and a model
+	of memory.  It may provide instructions which are closer to
+	the language being compiled than any physical computer or it
+	may be used to make the language implementation easier to
+	{port} to other {platforms}.
+
+	A {virtual machine} is an abstract machine for which an
+	{interpreter} exists.
+
+	Examples: {ABC}, {Abstract Machine Notation}, {ALF}, {CAML},
+	{F-code}, {FP/M}, {Hermes}, {LOWL},
+	{Christmas}, {SDL}, {S-K reduction machine}, {SECD}, {Tbl},
+	{Tcode}, {TL0}, {WAM}.
+
+	2. <theory> A procedure for executing a set of instructions in
+	some formal language, possibly also taking in input data and
+	producing output.  Such abstract machines are not intended to
+	be constructed as {hardware} but are used in thought
+	experiments about {computability}.
+
+	Examples: {Finite State Machine}, {Turing Machine}.
+
+	(1995-03-13)
+
+Abstract Machine Notation
+
+	<language> (AMN) A language for specifying {abstract machines}
+	in the {B-Method}, based on the mathematical theory of
+	{Generalised Substitutions}.
+
+	(1995-03-13)
+
+abstract syntax
+
+	<language, data> A form of representation of data that is
+	independent of machine-oriented structures and encodings and
+	also of the physical representation of the data.  Abstract
+	syntax is used to give a high-level description of programs
+	being compiled or messages passing over a communications link.
+
+	A {compiler}'s internal representation of a program will
+	typically be an {abstract syntax tree}.  The abstract syntax
+	specifies the tree's structure is specified in terms of
+	categories such as "statement", "expression" and
+	"{identifier}".  This is independent of the source syntax
+	({concrete syntax}) of the language being compiled (though it
+	will often be very similar).
+
+	A {parse tree} is similar to an abstract syntax tree but it
+	will typically also contain features such as parentheses which
+	are syntactically significant but which are implicit in the
+	structure of the {abstract syntax tree}.
+
+	(1998-05-26)
+
+Abstract Syntax Notation 1
+
+	<language, standard, protocol> (ASN.1, X.208, X.680) An
+	{ISO}/{ITU-T} {standard} for transmitting structured {data} on
+	{networks}, originally defined in 1984 as part of {CCITT
+	X.409} '84.  ASN.1 moved to its own standard, X.208, in 1988
+	due to wide applicability.  The substantially revised 1995
+	version is covered by the X.680 series.
+
+	ASN.1 defines the {abstract syntax} of {information} but does
+	not restrict the way the information is encoded.  Various
+	ASN.1 encoding rules provide the {transfer syntax} (a
+	{concrete} representation) of the data values whose {abstract
+	syntax} is described in ASN.1.  The standard ASN.1 encoding
+	rules include {BER} (Basic Encoding Rules - X.209), {CER}
+	(Canonical Encoding Rules), {DER} (Distinguished Encoding
+	Rules) and {PER} (Packed Encoding Rules).
+
+	ASN.1 together with specific ASN.1 encoding rules facilitates
+	the exchange of structured data especially between
+	{application programs} over networks by describing data
+	structures in a way that is independent of machine
+	architecture and implementation language.
+
+	{OSI} {Application layer} {protocols} such as {X.400} {MHS}
+	{electronic mail}, {X.500} directory services and {SNMP} use
+	ASN.1 to describe the {PDU}s they exchange.
+
+	Documents describing the ASN.1 notations: {ITU-T} Rec. X.680,
+	{ISO} 8824-1; {ITU-T} Rec. X.681, {ISO} 8824-2; {ITU-T}
+	Rec. X.682, {ISO} 8824-3; {ITU-T} Rec. X.683, {ISO} 8824-4
+
+	Documents describing the ASN.1 encoding rules: {ITU-T}
+	Rec. X.690, {ISO} 8825-1; {ITU-T} Rec. X.691, {ISO} 8825-2.
+
+	[M. Sample et al, "Implementing Efficient Encoders and
+	Decoders for Network Data Representations", IEEE Infocom 93
+	Proc, v.3, pp. 1143-1153, Mar 1993.  Available from Logica,
+	UK].
+
+	See also {snacc}.
+
+	(2005-07-03)
+
+abstract syntax tree
+
+	<compiler> (AST) A data structure representing something which
+	has been parsed, often used as a {compiler} or {interpreter}'s
+	internal representation of a program while it is being
+	optimised and from which {code generation} is performed.  The
+	range of all possible such structures is described by the
+	{abstract syntax}.
+
+	(1994-11-08)
